@@ -40,6 +40,7 @@ body {
     transition: .3s;
     opacity: 0;
     animation: slideTop .5s ease forwards;
+    animation-delay: calc(.2s * var(--i));
 }
 
 .navbar a:hover {
@@ -51,7 +52,7 @@ body {
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background: url(../images/bg-main.png) no-repeat;
+    background: url(../images/bg-img.png) no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -66,10 +67,15 @@ body {
 .home-content h3 {
     font-size: 2rem;
     font-weight: 700;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: .7s;
 }
 
 .home-content h3:nth-of-type(2) {
     margin-bottom: 1.875rem;
+    animation: slideTop 1s ease forwards;
+    animation-delay: .7s;
 }
 
 .home-content h3 span {
@@ -80,10 +86,16 @@ body {
     font-size: 3.5rem;
     font-weight: 700;
     margin: -0.188rem 0;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 1s;
 }
 
 .home-content p {
     font-size: 1.25rem;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 1s;
 }
 
 .home-social-icons a {
@@ -98,6 +110,10 @@ body {
     font-size: 1.25rem;
     color: #0ef;
     text-decoration: none;
+    transition: .5s ease;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
     margin: 1.875rem 0.938rem 1.875rem 0;
 
 }
@@ -118,6 +134,11 @@ body {
     letter-spacing: 1px;
     text-decoration: none;
     font-weight: 600;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+    box-shadow: 0 0 5px #0ef,
+        0 0 25px #0ef
 }
 
 .btn-box:hover {
@@ -138,7 +159,31 @@ body {
     }
 }
 
+@keyframes slideLeft {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
 @keyframes slideTop {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes slideBottom {
     0% {
         transform: translateY(-100px);
         opacity: 0;
