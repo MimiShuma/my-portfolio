@@ -57,6 +57,7 @@ body {
 
 .home {
     position: relative;
+    top: 10px;
     width: 100%;
     justify-content: space-between;
     height: 100vh;
@@ -198,7 +199,7 @@ body {
     font-size: 20px;
     line-height: 1.4;
     margin-bottom: 64px;
-    padding-right: 90px;
+    padding-right: 5.625rem;
     text-align: justify;
 }
 
@@ -740,13 +741,18 @@ form textarea {
         0 0 100px cyan, 0 0 200px cyan;
 }
 
-.last-text p {
+.footer p {
     width: 100%;
     text-align: center;
     padding: 25px 0;
     background: rgb(7, 85, 91);
     font-weight: 300;
     margin-top: 70px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #0ef;
 }
 
 .btn-go-top {
