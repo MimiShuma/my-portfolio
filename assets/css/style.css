@@ -16,7 +16,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 1.25rem 10%;
+    padding: 20px 10%;
     background: #051129;
     display: flex;
     justify-content: space-between;
@@ -26,7 +26,7 @@ body {
 
 .logo {
     position: relative;
-    width: 18rem;
+    width: 288px;
     cursor: default;
     opacity: 0;
     animation: slideRight 1s ease forwards;
@@ -34,11 +34,11 @@ body {
 
 .navbar a {
     display: inline-block;
-    font-size: 1rem;
+    font-size: 16px;
     color: #fff;
     text-decoration: none;
     font-weight: 500;
-    margin-left: 2.188rem;
+    margin-left: 35px;
     transition: .3s;
     opacity: 0;
     animation: slideTop .5s ease forwards;
@@ -59,15 +59,15 @@ body {
     background-position: center;
     display: flex;
     align-items: center;
-    padding: 4.375rem 10% 0;
+    padding: 70px 10% 0;
 }
 
 .home-content {
-    max-width: 37.5rem;
+    max-width: 600px;
 }
 
 .home-content h3 {
-    font-size: 2rem;
+    font-size: 32px;
     font-weight: 700;
     opacity: 0;
     animation: slideBottom 1s ease forwards;
@@ -75,7 +75,7 @@ body {
 }
 
 .home-content h3:nth-of-type(2) {
-    margin-bottom: 1.875rem;
+    margin-bottom: 30px;
     animation: slideTop 1s ease forwards;
     animation-delay: .7s;
 }
@@ -85,16 +85,16 @@ body {
 }
 
 .home-content h1 {
-    font-size: 3.5rem;
+    font-size: 56px;
     font-weight: 700;
-    margin: -0.188rem 0;
+    margin: -3px 0;
     opacity: 0;
     animation: slideRight 1s ease forwards;
     animation-delay: 1s;
 }
 
 .home-content p {
-    font-size: 1.25rem;
+    font-size: 20px;
     opacity: 0;
     animation: slideLeft 1s ease forwards;
     animation-delay: 1s;
@@ -104,19 +104,19 @@ body {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 40px;
+    height: 40px;
     background: transparent;
     border: 2px solid #0ef;
     border-radius: 50%;
-    font-size: 1.25rem;
+    font-size: 20px;
     color: #0ef;
     text-decoration: none;
     transition: .5s ease;
     opacity: 0;
     animation: slideLeft 1s ease forwards;
     animation-delay: calc(.2s * var(--i));
-    margin: 1.875rem 0.938rem 1.875rem 0;
+    margin: 30px 15px 30px 0;
 
 }
 
@@ -128,10 +128,10 @@ body {
 
 .btn-box {
     display: inline-block;
-    padding: 0.75rem 1.75rem;
+    padding: 12px 28px;
     background: #0ef;
-    border-radius: 2.5rem;
-    font-size: 1rem;
+    border-radius: 40px;
+    font-size: 16px;
     color: #081b29;
     letter-spacing: 1px;
     text-decoration: none;
@@ -159,20 +159,20 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    gap: 1.5rem;
+    gap: 24px;
     /* margin-bottom: 8%; */
 }
 
 .about-img-section img {
     padding-left: 20%;
-    max-width: 39.375rem;
+    max-width: 630px;
     height: auto;
     width: 100%;
     border-radius: 8px;
 }
 
 .about-text h2 {
-    font-size: 3.75rem;
+    font-size: 60px;
 }
 
 .about-text h2 span {
@@ -180,19 +180,19 @@ body {
 }
 
 .about-text h4 {
-    font-size: 1.813rem;
+    font-size: 29px;
     font-weight: 600;
     color: #fff;
     line-height: 1.7;
-    margin: 0.938rem 0 1.875rem;
+    margin: 15px 0 30px;
 }
 
 .about-text p {
     color: aliceblue;
-    font-size: 1.25rem;
+    font-size: 20px;
     line-height: 1.4;
-    margin-bottom: 4rem;
-    padding-right: 5.625rem;
+    margin-bottom: 64px;
+    padding-right: 90px;
     text-align: justify;
 }
 
@@ -200,15 +200,15 @@ body {
 
 #services {
     color: aliceblue;
-    font-size: 1.25rem;
+    font-size: 20px;
     line-height: 1.4;
-    margin-bottom: 4rem;
+    margin-bottom: 64px;
 }
 
 .sub-title {
     text-align: center;
-    font-size: 3.75rem;
-    padding-bottom: 4.375rem;
+    font-size: 60px;
+    padding-bottom: 70px;
 
 }
 
@@ -217,20 +217,20 @@ body {
 }
 
 .container {
-    padding: 5.625rem;
+    padding: 90px;
 }
 
 .services-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
-    grid-gap: 2.5rem;
-    margin-top: 3.125rem;
+    grid-gap: 40px;
+    margin-top: 50px;
 }
 
 .services-list div {
     background-color: transparent;
-    padding: 2.5rem;
-    font-size: 0.813rem;
+    padding: 40px;
+    font-size: 13px;
     font-weight: 500;
     border-right: 10px;
     border-radius: 20px;
@@ -240,22 +240,22 @@ body {
 }
 
 .services-list div i {
-    font-size: 3.125rem;
-    margin-bottom: 1.875rem;
+    font-size: 50px;
+    margin-bottom: 30px;
 }
 
 .services-list div h2 {
-    font-size: 1.875rem;
+    font-size: 30px;
     font-weight: 500;
-    margin-bottom: 0.938rem;
+    margin-bottom: 15px;
 }
 
 
 .services-list div a {
     text-decoration: none;
     color: #000;
-    font-size: 0.75rem;
-    margin-top: 1.25rem;
+    font-size: 12px;
+    margin-top: 20px;
     display: inline-block;
 }
 
@@ -264,7 +264,7 @@ body {
     padding: 12px 28px;
     background: #0ef;
     border-radius: 40px;
-    font-size: 1rem;
+    font-size: 16px;
     color: #081b29;
     letter-spacing: 1px;
     text-decoration: none;
@@ -282,8 +282,314 @@ body {
         0 0 100px cyan, 0 0 200px cyan;
 }
 
-.services-list div:hover{
+.services-list div:hover {
     transform: translateY(-10px);
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container1 {
+    width: 600px;
+    height: 700px;
+    padding: 75px 90px;
+    margin-left: 120px;
+}
+
+.heading1 {
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px;
+    margin-bottom: 50px;
+}
+
+.bar {
+    font-size: 23px;
+}
+
+.technical-bars .bar {
+    margin-top: 40px 0;
+}
+
+.technical-bars .bar:first-child {
+    margin-top: 0;
+}
+
+.technical-bars .bar:last-child {
+    margin-bottom: 0;
+}
+
+/* .technical-bars .bar .info {
+    margin-bottom: 5px;
+} */
+
+.technical-bars .bar .info span {
+    font-size: 17px;
+    font-weight: 500;
+    animation: showText 0.5s 1s linear forwards;
+    opacity: 0;
+}
+
+.technical-bars .bar .progress-bar {
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    height: 5px;
+    background-color: #000000;
+    animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+    margin-bottom: 30px;
+}
+
+.technical-bars .bar .progress-bar span {
+    height: 100%;
+    background-color: #0ef;
+    position: absolute;
+    border-radius: 10px;
+    animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.progress-bar.html span {
+    width: 90%;
+}
+
+.progress-bar.css span {
+    width: 70%;
+}
+
+.progress-bar.js span {
+    width: 50%;
+}
+
+.progress-bar.bs span {
+    width: 80%;
+}
+
+.progress-bar.tw span {
+    width: 60%;
+}
+
+.progress-bar span::after {
+    position: absolute;
+    padding: 1px 8px;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 3px;
+    top: -28px;
+    right: -20px;
+    animation: showText 0.5s 1.5s linear forwards;
+    opacity: 0;
+}
+
+.progress-bar.html span::after {
+    content: "90%";
+}
+
+.progress-bar.css span::after {
+    content: "70%";
+}
+
+.progress-bar.js span::after {
+    content: "50%";
+}
+
+.progress-bar.bs span::after {
+    content: "80%";
+}
+
+.progress-bar.tw span::after {
+    content: "60%";
+}
+
+.progress-bar span::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #000;
+    top: -10px;
+    right: 0;
+    animation: showText 0.5s 1.5s linear forwards;
+    opacity: 0;
+}
+
+.radial-bars {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.radial-bars .radial-bar {
+    width: 50%;
+    height: 170px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.radial-bars .radial-bar svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    width: 120px;
+    height: 160px;
+}
+
+.radial-bars .radial-bar .progress-bar {
+    stroke-width: 10;
+    stop-color: black;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+    animation: animate-bar 1s linear forwards;
+}
+
+.path {
+    stroke-width: 10;
+    stroke: #0ef;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+}
+
+.path-1 {
+    animation: animate-path1 1s 1s linear forwards;
+}
+
+.path-2 {
+    animation: animate-path2 1s 1s linear forwards;
+}
+
+.path-3 {
+    animation: animate-path3 1s 1s linear forwards;
+}
+
+.path-4 {
+    animation: animate-path4 1s 1s linear forwards;
+}
+
+.radial-bar .percentage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 17px;
+    font-weight: 500;
+    animation: showText 0.5s 1s linear forwards;
+    opacity: 0;
+}
+
+.radial-bar .text {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50px);
+    font-size: 17px;
+    font-weight: 500;
+    animation: showText 0.5s 1s linear forwards;
+    opacity: 0;
+}
+
+.main-text {
+    padding-top: 130px;
+    margin-top: 200px;
+}
+
+.main-text h2 {
+    font-size: 60px;
+    line-height: 1;
+    text-align: center;
+}
+
+.main-text h2 span {
+    color: #0ef;
+}
+
+.portfolio-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(359px, auto));
+}
+
+.row {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.row img {
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.layer {
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), #0ef);
+    position: absolute;
+    border-radius: 8px;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 40px;
+    transition: height 0.5s;
+}
+
+.layer h5 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.layer p {
+    color: #000;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.layer i {
+    color: #ff004f;
+    margin-top: 20px;
+    font-size: 20px;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.row:hover img {
+    transform: scale(1.1);
+}
+
+.row:hover .layer {
+    height: 100%;
 }
 
 
@@ -319,13 +625,47 @@ body {
 
 
 
+@keyframes animate-path1 {
+    100% {
+        stroke-dashoffset: 50;
+    }
+}
 
+@keyframes animate-path2 {
+    100% {
+        stroke-dashoffset: 175;
+    }
+}
 
+@keyframes animate-path3 {
+    100% {
+        stroke-dashoffset: 125;
+    }
+}
 
+@keyframes animate-path4 {
+    100% {
+        stroke-dashoffset: 75;
+    }
+}
 
+@keyframes animate-bar {
+    100% {
+        stroke-dashoffset: -1;
+    }
+}
 
+@keyframes showText {
+    100% {
+        opacity: 1;
+    }
+}
 
-
+@keyframes animate {
+    100% {
+        transform: scaleX(1);
+    }
+}
 
 @keyframes slideRight {
     0% {
