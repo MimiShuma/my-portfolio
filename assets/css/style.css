@@ -536,6 +536,7 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(359px, auto));
     gap: 20px;
+    margin-top: 20px;
 }
 
 .card {
@@ -580,7 +581,7 @@ section {
 .layer p {
     color: #000;
     font-size: 1rem;
-    line-height: 1.8;
+    line-height: 1;
 }
 
 .layer a {
