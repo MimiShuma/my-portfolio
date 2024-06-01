@@ -7,7 +7,8 @@
     <title>Portfolio of Shuma</title>
     <link rel="icon" type="image/x-icon" href="./assets/images/shuma.svg">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/demo.css">
+    <link rel="stylesheet" href="./assets/css/navbar.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 </head>
@@ -20,12 +21,46 @@
         </a>
 
         <nav class="navbar">
-            <a href="#home" style="--i:1" class="active">Home</a>
-            <a href="#aboutSection" style="--i:2">About</a>
-            <a href="#servicesSection" style="--i:3">Services</a>
-            <a href="#skills" style="--i:4">Skills</a>
-            <a href="#portfolio" style="--i:5">Portfolio</a>
-            <a href="#contact" style="--i:6">Contact</a>
+            <input type="checkbox" id="sidebar-active">
+            <label for="sidebar-active" class="open-sidebar-btn">
+                <svg viewBox="0 0 24 24" width="30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <path d="M4 18L20 18" stroke="#fff" stroke-width="2" stroke-linecap="round"></path>
+                        <path d="M4 12L20 12" stroke="#fff" stroke-width="2" stroke-linecap="round"></path>
+                        <path d="M4 6L20 6" stroke="#fff" stroke-width="2" stroke-linecap="round"></path>
+                    </g>
+                </svg>
+            </label>
+
+            <label id="overlay" for="sidebar-active"></label>
+            <div id="links-container">
+                <label for="sidebar-active" class="close-sidebar-btn">
+                    <svg viewBox="0 0 512 512" width="30" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <title>cancel</title>
+                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="work-case" fill="#fff" transform="translate(91.520000, 91.520000)">
+                                    <polygon id="Close"
+                                        points="328.96 30.2933333 298.666667 1.42108547e-14 164.48 134.4 30.2933333 1.42108547e-14 1.42108547e-14 30.2933333 134.4 164.48 1.42108547e-14 298.666667 30.2933333 328.96 164.48 194.56 298.666667 328.96 328.96 298.666667 194.56 164.48">
+                                    </polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </label>
+
+                <a href="#home" style="--i:1" class="active">Home</a>
+                <a href="#aboutSection" style="--i:2">About</a>
+                <a href="#servicesSection" style="--i:3">Services</a>
+                <a href="#skills" style="--i:4">Skills</a>
+                <a href="#portfolio" style="--i:5">Portfolio</a>
+                <a href="#contact" style="--i:6">Contact</a>
+            </div>
         </nav>
     </header>
     <!-- /navbar  -->

@@ -1,0 +1,17 @@
+#links-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#sidebar-active {
+    display: none;
+}
+
+.open-sidebar-btn,
+.close-sidebar-btn {
+    padding: 0 20px;
+    display: none;
+}
