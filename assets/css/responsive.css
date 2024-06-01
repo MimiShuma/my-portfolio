@@ -1,5 +1,5 @@
 /* Responsive Styles */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
     .home {
         height: 250px;
         background-position: right;
@@ -91,7 +91,7 @@
     }
 
     .btn-go-top {
-        bottom: 6rem;
+        bottom: 3rem;
         right: 4rem;
     }
 
