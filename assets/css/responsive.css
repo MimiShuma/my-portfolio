@@ -1,16 +1,4 @@
 /* Responsive Styles */
-@media screen and (max-width: 480px) {
-    .home {
-        height: 250px;
-        background-position: right;
-        background-size: 200%;
-    }
-
-    .home-content {
-        margin-top: 250px;
-    }
-
-}
 
 @media screen and (max-width: 768px) {
 
@@ -139,4 +127,17 @@
     .navbar a:visited~#links-container {
         right: -100%;
     }
+}
+
+@media screen and (max-width: 480px) {
+    .home {
+        height: 250px;
+        background-position: right;
+        background-size: 200%;
+    }
+
+    .home-content {
+        margin-top: 250px;
+    }
+
 }
