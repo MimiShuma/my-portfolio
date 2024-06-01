@@ -127,6 +127,10 @@
     .navbar a:visited~#links-container {
         right: -100%;
     }
+
+    .contact-form {
+        margin-left: 30px;
+    }
 }
 
 @media screen and (max-width: 480px) {
